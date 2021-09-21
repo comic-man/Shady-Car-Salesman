@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./no-tires.component.css']
 })
 export class NoTiresComponent implements OnInit {
-cars=["No Tools", "I'm A Tool","Complete Garbage"]
+cars=["No Tools","Complete Garbage"]
   constructor() { }
 
   ngOnInit(): void {
