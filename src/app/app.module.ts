@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NoTiresComponent } from './no-tires/no-tires.component';
-import { RacconCarComponent } from './raccon-car/raccon-car.component';
+import { RacconCarComponent } from './raccoon-car/raccon-car.component';
 
 @NgModule({
   declarations: [
