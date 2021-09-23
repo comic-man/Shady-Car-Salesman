@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./no-tires.component.css']
 })
 export class NoTiresComponent implements OnInit {
-cars=["No Tools","Complete Garbage"]
+
+  cars: string[] = [];
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  public addCar(){
+    this.cars.push('car');
+  }
+
+  public removeCar(){
+    this.cars.pop();
+  }
 }
+

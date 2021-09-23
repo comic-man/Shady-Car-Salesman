@@ -1,1 +1,4 @@
-<app-raccon-car *ngFor = "let car of cars"></app-raccon-car>
+<button class="car-button"  (click)=addCar()>Add Car</button>
+<button class="car-button" (click)=removeCar()>Remove Car</button>
+<app-raccon-car *ngFor = "let car of cars">
+</app-raccon-car>
